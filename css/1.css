@@ -1,0 +1,49 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #54a7ff;
+}
+
+.quote-container {
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 1000px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.quote-box {
+  
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #ffffff;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #54a7ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
